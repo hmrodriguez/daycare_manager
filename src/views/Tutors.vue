@@ -29,5 +29,5 @@ export default {
 </script>
 
 <style lang="scss">
-  .container-fluid { text-align: left; }
+  .container { text-align: left; }
 </style>
