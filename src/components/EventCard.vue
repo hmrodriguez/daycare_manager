@@ -1,5 +1,5 @@
 <template>
-  <div class="card" role="card">
+  <div class="card mb-5" role="card">
     <div class="card-header" role="card-header">{{ cardHeader }}</div>
     <div class="card-body" role="card-body">
       <h5 class="card-title"><strong>{{cardTitleContext}}</strong></h5>
