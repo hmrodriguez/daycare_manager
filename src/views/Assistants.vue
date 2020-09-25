@@ -19,7 +19,7 @@ export default {
 
   methods: {
     onEventAdded () {
-      alert('event aded')
+      alert('Event successfully added!')
     }
   }
 }
