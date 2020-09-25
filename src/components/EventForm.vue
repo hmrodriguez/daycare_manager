@@ -23,6 +23,7 @@
 
 <script>
 import { mapActions } from 'vuex'
+import faker from 'faker'
 
 export default {
   data () {
@@ -60,6 +61,7 @@ export default {
     newEvent () {
       return {
         type: 'accident',
+        description: faker.lorem.paragraph(),
         created_at: new Date()
       }
     }

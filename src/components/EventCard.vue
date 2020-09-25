@@ -1,6 +1,11 @@
 <template>
-  <div class="card mb-5" role="card">
-    <div class="card-header" role="card-header">{{ cardHeader }}</div>
+  <div class="card mb-4" role="card">
+    <div class="card-header" role="card-header">
+      {{ cardHeader }}
+      <span class="text-muted" role="time">
+        {{ event.created_at.toString().substring(0, 25) }}
+      </span>
+    </div>
     <div class="card-body" role="card-body">
       <h5 class="card-title"><strong>{{cardTitleContext}}</strong></h5>
       <p class="card-text">{{ event.description }}</p>
